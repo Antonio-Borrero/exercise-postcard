@@ -4,7 +4,7 @@ body {
 }
 .postcard {
 	background: white;
-	width: 450px;
+	width: 400px;
 	height: 320px;
 	margin: auto;
 }
@@ -27,16 +27,16 @@ body {
 	padding: 10px;
 	padding-bottom: 0%;
 }
-.body-left p {
+.body-left p:first-child {
 	margin-top: 0px;
 	font-size: medium;
-	padding: 5px;
 }
 input {
 	border: none;
-	border-bottom: gray 1px solid;
+	border-bottom: none;
 }
 input:placeholder-shown {
+	text-decoration: underline;
 	font-family: "Sour Gummy";
 	font-size: medium;
 	padding-top: 10px;
@@ -47,5 +47,4 @@ input:placeholder-shown {
 button {
 	background-color: darkgray;
 	padding: 10px;
-	border-radius: 5px;
 }
